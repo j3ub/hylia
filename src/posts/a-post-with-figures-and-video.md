@@ -16,6 +16,10 @@ You can also add videos to posts from YouTube or Vimeo (or wherever, really) and
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_38JDGnr0vA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
+Here is a link.
+<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+
 Finally, how about a `<blockquote>`?
 
 > Quotes will take a slightly different style to normal body text and look fancy.
