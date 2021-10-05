@@ -16,6 +16,8 @@ Here is link that should force opening in Google Chrome: <a href="googlechromes:
 
 Maybe this works in Chrome? <a href="intent://link/#Intent;content://www.w3schools.com:443;package=com.android.chrome;category=browsable;end"> Visit W3Schools.com!</a>
 
+Maybe this works in Chrome? <a href="intent://link/#Intent;scheme=https;content://www.w3schools.com:443;package=com.android.chrome;category=browsable;end"> Visit W3Schools.com!</a>
+
 If you want to make an image bleed-out, add a title attribute to it and the front-end will automatically wrap it in a `<figure>` tag for you.
 
 ![The top of a grey concrete building with a blue sky in the background](/images/demo-image-1.jpg "Brutalism at its finest. Photo by Artificial Photography on Unsplash.")
