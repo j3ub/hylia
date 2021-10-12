@@ -10,13 +10,11 @@ A post to demonstrate how a blog post looks on Hylia. Content is all set in the 
 
 Here is a generic link: <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
 
-Here is link that should force opening in Google Chrome: <a href="googlechromes://www.w3schools.com/">Visit W3Schools.com!</a> <-- this didn't work
-
-Here is link that should force opening in Google Chrome: <a href="googlechromes://navigate?url=www.w3schools.com/">Visit W3Schools.com!</a> <-- this didn't work
-
 Maybe this works in Chrome? <a href="intent://link/#Intent;content://www.w3schools.com:443;package=com.android.chrome;category=browsable;end"> Visit W3Schools.com!</a>
 
-Maybe this works in Chrome? <a href="intent://www.w3schools.com#Intent;scheme=http;package=com.android.chrome;end"> Visit W3Schools.com!</a>
+Scheme is http <a href="intent://www.w3schools.com#Intent;scheme=http;package=com.android.chrome;end"> Visit W3Schools.com!</a>
+
+Scheme is https <a href="intent://www.w3schools.com#Intent;scheme=https;package=com.android.chrome;end"> Visit W3Schools.com!</a>
 
 If you want to make an image bleed-out, add a title attribute to it and the front-end will automatically wrap it in a `<figure>` tag for you.
 
